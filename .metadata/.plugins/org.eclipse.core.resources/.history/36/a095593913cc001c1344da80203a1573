@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class MovieApp {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		boolean userContinue = true;
+		
+		Movie pineappleExpress = new Movie("Pineapple Express", "Comedy");
+		Movie poltergeist = new Movie("Poltergeist", "Horror");
+		Movie jurassicPark = new Movie("Jurassic Park", "Thriller");
+		Movie knockedUp = new Movie("Knocked Up", "Comedy");
+		Movie Carrie = 
+		
+		ArrayList<Movie> movieList = new ArrayList<>();
+		movieList.add(new Movie("This Is The End", "Comedy"));
+		movieList.add(new Movie("Saw", "Horror"));
+		movieList.add(new Movie("Jaws", "Thriller"));
+		movieList.add(new Movie("Carrie", "Horror"));
+		movieList.add(new Movie("The Fugitive", "Thriller"));
+		movieList.add(new Movie("Up In Smoke", "Comedy"));
+		while (userContinue) {
+			System.out.print("What category are you interested in?");
+			String userInput = input.next();
+		}
+	}
+
+}
